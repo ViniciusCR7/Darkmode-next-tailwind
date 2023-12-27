@@ -8,10 +8,58 @@ module.exports = {
   ],
   theme: {
     extend: {
+        
+     fontFamily: {
+     
+        poppins: ['Poppins']
+     },
+     
+
+    keyframes:{
+      'hoverlinein': {
+      '0%':{
+        width: '100%'
+      } ,
+       '100%':{
+        width: '60%'
+
+       }
+      }     ,  
+   
+      
+      'hoverlineout': {
+      '0%':{
+        width: '60%'
+      } ,
+       '100%':{
+        width: '100%'
+
+       }
+      }     ,  
+   
+      
+      
+      
+
+    },
+   animation:{
+      'hoverlinein':'hoverlinein 500ms forwards',
+      'hoverlineout':'hoverlineout 500ms'
+      
+
+   },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+
+        
+      },
+      colors: {
+        myOrange: '#DD5336',
+      },
+      textColor: {
+        myOrange: '#DD5336',
       },
     },
   },

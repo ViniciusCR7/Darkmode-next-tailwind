@@ -1,6 +1,5 @@
 import './globals.css'
 import Providers from './providers'
-import ThemeSwitcher from './ThemeSwitcher'
 
 
 
@@ -12,9 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body class="  bg-[#F8F8F8] dark:bg-[#202328]">
         <Providers>
-        <ThemeSwitcher/>
+    
         {children}
         </Providers>
        

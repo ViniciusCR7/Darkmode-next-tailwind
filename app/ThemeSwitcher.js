@@ -20,8 +20,8 @@ const ThemeSwitcher= () => {
       }
 
     return(
-       <div>
-       the current them is:{theme} <br/>
+       <div class="flex gap-4">
+  
 
        <button onClick={() => setTheme('light')}>Light Mode</button><br/>
       <button onClick={() => setTheme('dark')}>Dark Mode</button>
