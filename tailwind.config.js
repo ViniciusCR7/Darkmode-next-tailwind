@@ -57,9 +57,13 @@ module.exports = {
       },
       colors: {
         myOrange: '#DD5336',
+        myBlue: '#1644BB',
+        myGrayBlue: '#0F32AE'
       },
       textColor: {
         myOrange: '#DD5336',
+        myBlue: '#1644BB',
+        myGrayBlue: '#0F32AE'
       },
     },
   },
