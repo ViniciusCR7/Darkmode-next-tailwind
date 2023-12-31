@@ -59,40 +59,31 @@ export default function Home() {
       
       <main class="grid grid-cols-1  sm:grid-cols-2   pr-0 md:pr-20 lg:pr-20 ">
 
-        <div /* lado esquerdo */ class="flex flex-col gap-24">
+        <div /* lado esquerdo */ class="flex flex-col gap-14 sm:gap-24">
 
 
-      <h1 class=" pl-20 mt-24 text-8xl font-poppins font-bold animate-textIn ">
+      <h1 class=" pl-48 sm:pl-20 mt-24 text-8xl font-poppins font-bold animate-textIn  ">
         He<span class="  text-myBlue dark:text-myOrange ">llo</span>
       </h1>
        
 
-       <div class=" bg-[#B1BBD7] dark:bg-[#292D38] w-[20%] h-1/6 min-w-72 max-h-10	opacity-90">
-       <h2 class="font-poppins font-semibold text-3xl pl-20  animate-textIn2">
+       <div class=" bg-[#B1BBD7] dark:bg-[#292D38] w-[20%] h-1/6  min-w-[390px] sm:min-w-72 max-h-10	opacity-90">
+       <h2 class="font-poppins font-semibold text-3xl pl-48 sm:pl-20  animate-textIn2">
         I am <span class="text-myGrayBlue dark:text-[#B87A6D]">Vinicius</span>
        </h2>
        </div>
-       <div class=" min-w-72 min-h-20	 flex flex-col bg-[#B1BBD7] dark:bg-[#292D38] w-[20%] text-myGrayBlue 	dark:text-[#B87A6D] gap-4 font-poppins">
-        <h2 class="pl-20 text-xl font-semibold animate-textIn3 ">
+       <div class=" min-w-[390px] sm:min-w-72 min-h-20	 flex flex-col bg-[#B1BBD7] dark:bg-[#292D38] w-[20%] text-myGrayBlue 	dark:text-[#B87A6D] gap-4 font-poppins">
+        <h2 class="  pl-48 sm:pl-20 text-xl font-semibold animate-textIn3 ">
         My world
         </h2>
-        <p class="pl-20 mb-2 animate-textIn3 ">
+        <p class=" pl-48 sm:pl-20 mb-2 animate-textIn3 ">
         In my world you will find projects from different niches, I hope you like it
         </p>
        </div>
-       <div  class='flex gap-5 pl-20 md:hidden'>
-       
-      <img class='hidden dark:flex ' src='img/instagram.svg'/>
-       <img class=' dark:hidden' src='img/instagramB.svg'/>
-       <img class='hidden dark:flex ' src='img/linkeddin.svg'/>
-       <img class=' dark:hidden' src='img/linkeddinB.svg'/>
-       <img class='hidden dark:flex ' src='img/twitter.svg'/>
-       <img class=' dark:hidden' src='img/twitterB.svg'/>
-          
-       </div>
+    
         </div> 
         
-     <div  /* Lado direito */ class="mt-24  mx-auto">
+     <div  /* Lado direito */ class="mt-14 sm:mt-24  mx-auto">
         
 
     <div class="flex flex-col gap-2 font-poppins items-center mb-4  md:hidden ">
@@ -129,16 +120,17 @@ export default function Home() {
         
 
       </main>
-    <div  class='flex gap-5 fixed right-4 bottom-4 hidden md:flex'>
+    <div  class='flex gap-5 relative md:fixed md:right-4 my-8 md:my-0 justify-center md:bottom-4  md:flex'>
        
-       <img class='hidden dark:flex ' src='img/instagram.svg'/>
-       <img class=' dark:hidden' src='img/instagramB.svg'/>
-       <img class='hidden dark:flex ' src='img/linkeddin.svg'/>
-       <img class=' dark:hidden' src='img/linkeddinB.svg'/>
-       <img class='hidden dark:flex ' src='img/twitter.svg'/>
-       <img class=' dark:hidden' src='img/twitterB.svg'/>
+       <img class='hover:scale-125 hover:transition duration-1000 cursor-pointer hidden dark:flex ' src='img/instagram.svg'/>
+       <img class=' hover:scale-125 hover:transition duration-1000 cursor-pointer dark:hidden' src='img/instagramB.svg'/>
+       <img class='hover:scale-125 hover:transition duration-1000 cursor-pointer hidden dark:flex ' src='img/linkeddin.svg'/>
+       <img class=' hover:scale-125 hover:transition duration-1000 cursor-pointer dark:hidden' src='img/linkeddinB.svg'/>
+       <img class='hover:scale-125 hover:transition duration-1000 cursor-pointer hidden dark:flex ' src='img/twitter.svg'/>
+       <img class=' hover:scale-125 hover:transition duration-1000 cursor-pointer dark:hidden' src='img/twitterB.svg'/>
        
     </div>
+ 
     </div>
   )
 }
