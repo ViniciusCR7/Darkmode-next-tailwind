@@ -59,24 +59,24 @@ export default function Home() {
       
       <main class="grid grid-cols-1  sm:grid-cols-2   pr-0 md:pr-20 lg:pr-20 ">
 
-        <div /* lado esquerdo */ class="flex flex-col gap-14 sm:gap-24">
+        <div /* lado esquerdo */ class="flex flex-col text-center sm:text-left gap-14 sm:gap-24 ">
 
 
-      <h1 class=" pl-48 sm:pl-20 mt-24 text-8xl font-poppins font-bold animate-textIn  ">
+      <h1 class="  sm:pl-20 mt-24 text-8xl font-poppins font-bold animate-textIn  ">
         He<span class="  text-myBlue dark:text-myOrange ">llo</span>
       </h1>
        
 
-       <div class=" bg-[#B1BBD7] dark:bg-[#292D38] w-[20%] h-1/6  min-w-[390px] sm:min-w-72 max-h-10	opacity-90">
-       <h2 class="font-poppins font-semibold text-3xl pl-48 sm:pl-20  animate-textIn2">
+       <div class=" bg-[#B1BBD7] dark:bg-[#292D38] w-full sm:w-[20%] h-1/6  min-w-[390px] sm:min-w-72 max-h-10	opacity-90">
+       <h2 class="font-poppins font-semibold text-3xl  sm:pl-20  animate-textIn2">
         I am <span class="text-myGrayBlue dark:text-[#B87A6D]">Vinicius</span>
        </h2>
        </div>
-       <div class=" min-w-[390px] sm:min-w-72 min-h-20	 flex flex-col bg-[#B1BBD7] dark:bg-[#292D38] w-[20%] text-myGrayBlue 	dark:text-[#B87A6D] gap-4 font-poppins">
-        <h2 class="  pl-48 sm:pl-20 text-xl font-semibold animate-textIn3 ">
+       <div class=" min-w-[390px] sm:min-w-72 min-h-20	 flex flex-col bg-[#B1BBD7] dark:bg-[#292D38] w-full sm:w-[20%] text-myGrayBlue 	dark:text-[#B87A6D] gap-4 font-poppins">
+        <h2 class=" sm:pl-20 text-xl font-semibold animate-textIn3 ">
         My world
         </h2>
-        <p class=" pl-48 sm:pl-20 mb-2 animate-textIn3 ">
+        <p class="sm:pl-20 mb-2 animate-textIn3 ">
         In my world you will find projects from different niches, I hope you like it
         </p>
        </div>
