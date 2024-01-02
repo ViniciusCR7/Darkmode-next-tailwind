@@ -2,6 +2,8 @@ Dark mode website Portfolio
 with TAILWINDCSS/NEXT.JS
 **RESPONSIVE**
 
+**To open the application, use npm install followed by either npm run dev or npm start in the terminal**
+
 Our Telegram group for more web applications.
 https://t.me/+wK6AV6jx0aA1ZTJh
 
